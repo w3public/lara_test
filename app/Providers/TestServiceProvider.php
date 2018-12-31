@@ -7,7 +7,7 @@ use App\Billing\Stripe;
 
 class TestServiceProvider extends ServiceProvider
 {
-    protected $defer = true;
+    //protected $defer = true;
 
     /**
      * Bootstrap services.

@@ -150,6 +150,7 @@ return [
         /*
          * Package Service Providers...
          */
+        W3public\Calculator\CalculatorServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -160,7 +161,6 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         App\Providers\TestServiceProvider::class,
-
     ],
 
     /*

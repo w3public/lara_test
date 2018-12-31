@@ -6,7 +6,7 @@ use App\Billing\Stripe;
 //use App;
 class AppServiceProvider extends ServiceProvider
 {
-    protected $defer = true;
+    //protected $defer = true;
     /**
      * Bootstrap any application services.
      *
